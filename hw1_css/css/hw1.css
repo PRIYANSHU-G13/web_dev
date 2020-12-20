@@ -1,0 +1,128 @@
+header{
+  background-color: #459cf2;
+  -webkit-background-image: url(../images/flywheel.jpg);
+  -moz-background-image: url(../images/flywheel.jpg);
+  -o-background-image: url(../images/flywheel.jpg);
+  -ms-background-image: url(../images/flywheel.jpg);
+  background-image: url(../images/flywheel.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: auto;
+  height: 100%;
+  padding: 20px;
+}
+h1{
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+h2{
+  color: #000000;
+  text-transform: uppercase;
+}
+section{
+  background: #706f6f;
+  font-size: 110%;
+}
+aside{
+  display: none;
+}
+
+body{
+  padding-left: 10px;
+  margin: 30px;
+}
+nav a{
+  display: inline-block;
+  width: 11%;
+  height: 5%;
+  padding: 1%;
+  font-size: 120%;
+  text-align: center;
+  text-decoration: none;
+  background: #ffffff;
+  border-radius: 6px;
+  background-size: contain;
+  margin-left: 5%;;
+  margin-right: 5%;;
+  margin-bottom: 4%;;
+  opacity: 40%;
+  overflow: auto;
+  text-overflow: clip;
+}
+img{
+  display: block;
+  margin: 0 auto;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: 50%;
+  border-style: solid;
+  border-color: #000000;
+}
+.left{
+  display: inline-block;
+  background: #7c6f16 ;
+  float: left;
+  height:100%;
+  width: 15%;
+  padding-bottom: 95px;
+}
+.right{
+  background-color: #ffffff;
+  display: inline-block;
+  clear: left;
+  width: 65%;
+  padding-left: 20px;
+}
+.active{
+  background: #ffffff;
+  opacity: 100%;
+}
+table{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 18%;
+  box-sizing: border-box;
+  display: table;
+}
+table tr th{
+  color: #ffffff;
+  background-color: #828e19;
+  background-image: linear-gradient(#9eba7a 5%, #828e19);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+  border-color: #636b1d;
+  padding: 12px;
+  text-shadow: 1px 1px 8px #04241b;
+}
+table th:first-child{
+  width: 40%;
+  text-align: left;
+  margin: 15px;
+}
+table th:nth-child(2){
+  width: 20%;
+}
+table th:nth-child(3){
+  width: 20%;
+}
+table tr td{
+  background-color: #9eba7a;
+  opacity: 0.8;
+  text-align: center;
+  margin: 5px;
+  padding: 2px;
+}
+table td:first-child{
+  text-align: left;
+  padding-left: 10px;
+}
+table tr:hover td{
+  opacity: 1;
+  text-shadow: 1px 1px 15px #04241b;
+
+}
